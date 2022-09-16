@@ -5,12 +5,12 @@ let checkSys = document.getElementById("checkSys");
 let allInfo = document.getElementById("allInfo");
 
 var options = {
-    host: 'private-github-api.com', // <-- Private github api url. If not passed, defaults to 'api.github.com'
-    pathPrefix: 'prefix-for-enterprise-instance', // <-- Private github api url prefix. If not passed, defaults to null.
+    host: 'api.github.com', // <-- Private github api url. If not passed, defaults to 'api.github.com'
+    pathPrefix: null, // <-- Private github api url prefix. If not passed, defaults to null.
     protocol: 'https', // <-- http protocol 'https' or 'http'. If not passed, defaults to 'https'
     user: 'semVer4', // <-- Your Github username
-    repo: 'https://github.com/semVer4/github-db.io', // <-- Your repository to be used a db
-    remoteFilename: 'filename-with-extension-json' // <- File with extension .json
+    repo: 'github-db.io', // <-- Your repository to be used a db
+    remoteFilename: 'db' // <- File with extension .json
 };
 
 // Require GithubDB
