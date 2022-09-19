@@ -13,7 +13,6 @@ var options = {
     remoteFilename: 'db' // <- File with extension .json
 };
 
-// Require GithubDB
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 var GithubDB = require('..').default;
