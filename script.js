@@ -1,3 +1,5 @@
+'use strict'
+
 let newVD = document.getElementById("addVD");
 let newDT = document.getElementById("addDT");
 
