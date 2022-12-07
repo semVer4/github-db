@@ -21,7 +21,7 @@ var GithubDB = require('..').default;
 // Initialize it with the options from above.
 var githubDB = new GithubDB(options);
 
-githubDB.auth("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");
+githubDB.auth("secret");
  
 // Connect to repository
 githubDB.connectToRepo();
